@@ -27,20 +27,23 @@ body {
   align-items: center;
   margin-bottom: 20px;
   margin-left: 90px;
+  font-size: 40px;
 }
 
 .btn-green {
   background: rgb(26, 128, 26);
+  
   color: #fff;
   border: none;
   padding: 10px 20px;
   margin: 5px;
   margin-right: 10px;
+  margin-left: 460px;
   border-radius: 5px;
   cursor: pointer;
-  float: right;
+  display: inline-block;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 17px;
   font-family: inherit;
 }
 
@@ -53,8 +56,53 @@ body {
   margin-right: 10px;
   border-radius: 5px;
   cursor: pointer;
-  float: right;
+  display: inline-block;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 17px;
   font-family: inherit;
 }
+.form-label {
+  display: block;
+  margin: 10px 0px 5px 0px;
+  font-size: 20px;
+}
+
+.radio {
+margin: 6px;
+}
+
+.radio-label {
+  margin: 0px 10px 0px 0px;
+  font-size: 20px;
+}
+
+.submit-btn {
+  background:black;
+  
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: inherit;
+}
+
+.student-card {
+  border: 1px solid black;
+  width: 80%;
+  align-items: center;
+}
+
+.student {
+  margin-left: 10%;
+  font-size: 17px;
+  display: block;
+  width: 50%;
+  height: 50px;
+}
+
+
